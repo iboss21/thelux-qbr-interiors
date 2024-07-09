@@ -1,14 +1,23 @@
 local function toggleInteriors(open)
     local interiorIds = {
-        -- Example interior IDs (replace with actual IDs as you discover them)
-        24641, -- Valentine Saloon
-        24642, -- Valentine Sheriff Office
-        24643, -- Valentine Gunsmith
-        26112, -- Saint Denis Bank
-        27456, -- Rhodes Saloon
-        28704, -- Annesburg Mine
-        -- Add more interior IDs here as you discover them
-    }
+    24641, -- Valentine Saloon
+    24642, -- Valentine Sheriff Office
+    24643, -- Valentine Gunsmith
+    24644, -- Valentine General Store
+    24645, -- Valentine Doctor
+    26112, -- Saint Denis Bank
+    26113, -- Saint Denis Saloon
+    26114, -- Saint Denis Theatre
+    26115, -- Saint Denis Gunsmith
+    26116, -- Saint Denis Tailor
+    26117, -- Saint Denis Doctor
+    27456, -- Rhodes Saloon
+    27457, -- Rhodes Bank
+    27458, -- Rhodes Gunsmith
+    28704, -- Annesburg Mine
+    28705, -- Annesburg General Store
+    -- Add more interior IDs here
+}
 
     for _, interiorId in ipairs(interiorIds) do
         if open then
