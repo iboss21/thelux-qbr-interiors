@@ -36,9 +36,11 @@ Config = {}
 
 -- Set to true to open all interiors, false to close all interiors
 Config.OpenInteriors = true
+```
+
 client.lua
-lua
-Copy code
+```lua
+
 local function toggleInteriors(open)
     local interiorIds = {
         -- Example interior IDs (replace with actual IDs as you discover them)
