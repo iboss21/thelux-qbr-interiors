@@ -15,7 +15,7 @@ A simple resource for RedM using QBCore to open or close all interiors in the ga
 
 - RedM server
 - QBCore framework
-- Alexander Blade's ScriptHookRDR2
+- Thanks to and Credit to. Alexander Blade's ScriptHookRDR2
 
 ## Installation
 
