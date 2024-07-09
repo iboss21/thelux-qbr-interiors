@@ -28,9 +28,9 @@ client_script {
     'config.lua',
     'client.lua'
 }
-config.lua
 ```
 
+config.lua
 ```lua
 Config = {}
 
